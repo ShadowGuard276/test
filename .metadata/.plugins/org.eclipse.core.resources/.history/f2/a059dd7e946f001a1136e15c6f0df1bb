@@ -1,0 +1,20 @@
+package Bike;
+
+public class MotorBike {
+	private int speed;
+void setSpeed(int speed) {
+	this.speed = speed;
+}
+int getspeed() {
+	return this.speed;
+}
+void start() {
+	System.out.println("Bike statred");
+}
+void gearchange() {
+	System.out.println("gear changed");
+}
+void stop() {
+	System.out.println("bike stoped");
+}
+}

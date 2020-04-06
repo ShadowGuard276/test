@@ -1,0 +1,14 @@
+package displayMenu;
+
+import java.util.Scanner;
+
+public class displayMenuCardRunner {
+
+	public static void main(String[] args) {
+    Scanner scanner =new Scanner(System.in);
+    System.out.println("input number 1");
+    int number1= scanner.nextInt();
+    System.out.print("The number you Entered is :"+ number1);
+	}
+
+}

@@ -1,0 +1,22 @@
+package FolderOfBooks;
+
+public class Book {
+	private int noOfCopies;
+
+	public int getNoOfCopies() {
+		return noOfCopies;
+	}
+	public void setNoOfCopies(int noOfCopies) {
+		this.noOfCopies = noOfCopies;
+	}
+	}
+void openBook() {
+	System.out.println("book opened");
+}
+void pageno() {
+	System.out.println("page no 151");
+}
+void closebook() {
+	System.out.println("book closed");
+}
+}

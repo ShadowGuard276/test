@@ -1,0 +1,21 @@
+package displayMenu;
+
+import java.util.Scanner;
+
+public class displayMenuCardRunner {
+
+	public static void main(String[] args) {
+    Scanner scanner =new Scanner(System.in);
+    System.out.println("input number 1");
+    int number1= scanner.nextInt();
+    //System.out.println("The number you Entered is :"+ number1);
+	System.out.println("input number 2");
+	int number2 = scanner.nextInt();
+	System.out.println("1 for addition\n");
+	System.out.println("Select one of the optino:");
+	int option = scanner.nextInt();
+	
+	
+	}
+
+}

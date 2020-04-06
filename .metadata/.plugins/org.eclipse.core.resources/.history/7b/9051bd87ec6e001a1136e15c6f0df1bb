@@ -1,0 +1,22 @@
+package FolderOfBooks;
+
+public class BookRunner {
+
+	public static void main(String[] args) {
+		Book ArtofcomputerPrograming = new Book();
+		Book EffectiveJava =new Book();
+		Book CleanCode =new Book();
+		ArtofcomputerPrograming.openBook();
+		EffectiveJava.openBook();
+		CleanCode.openBook();
+		ArtofcomputerPrograming.pageno();
+		EffectiveJava.pageno();
+		CleanCode.pageno();
+		ArtofcomputerPrograming.closebook();
+		EffectiveJava.closebook();
+		CleanCode.closebook();
+		
+		
+	}
+
+}
